@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["54.234.141.145"]/' /home/ubuntu/aws_cicd/project_core/settings.py
+sed -i 's/\[]/\["54.145.160.241"]/' /home/ubuntu/aws_cicd/project_core/settings.py
 
 python3 manage.py makemigrations     
 python3 manage.py migrate 
